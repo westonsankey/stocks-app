@@ -1,0 +1,4 @@
+-- AlterTable
+ALTER TABLE "StockSummary" ALTER COLUMN "grossProfit" SET DATA TYPE TEXT,
+ALTER COLUMN "marketCap" SET DATA TYPE TEXT,
+ALTER COLUMN "totalRevenue" SET DATA TYPE TEXT;

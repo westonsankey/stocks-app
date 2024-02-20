@@ -1,0 +1,12 @@
+export { AggregateSimilarStocksArgs } from "./AggregateSimilarStocksArgs";
+export { CreateManySimilarStocksArgs } from "./CreateManySimilarStocksArgs";
+export { CreateSimilarStocksArgs } from "./CreateSimilarStocksArgs";
+export { DeleteManySimilarStocksArgs } from "./DeleteManySimilarStocksArgs";
+export { DeleteSimilarStocksArgs } from "./DeleteSimilarStocksArgs";
+export { FindFirstSimilarStocksArgs } from "./FindFirstSimilarStocksArgs";
+export { FindManySimilarStocksArgs } from "./FindManySimilarStocksArgs";
+export { FindUniqueSimilarStocksArgs } from "./FindUniqueSimilarStocksArgs";
+export { GroupBySimilarStocksArgs } from "./GroupBySimilarStocksArgs";
+export { UpdateManySimilarStocksArgs } from "./UpdateManySimilarStocksArgs";
+export { UpdateSimilarStocksArgs } from "./UpdateSimilarStocksArgs";
+export { UpsertSimilarStocksArgs } from "./UpsertSimilarStocksArgs";

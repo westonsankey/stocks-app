@@ -1,0 +1,12 @@
+.navLink {
+  &:hover {
+    cursor: pointer;
+    color: #aeaeae;
+  }
+}
+
+.adminButton {
+  &:hover {
+    background-color: none;
+  }
+}

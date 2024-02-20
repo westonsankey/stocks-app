@@ -1,0 +1,7 @@
+mutation AddStock($tickerSymbol: String!) {
+  addStock(tickerSymbol: $tickerSymbol)
+}
+
+mutation RemoveStock($tickerSymbol: String!) {
+  removeStock(tickerSymbol: $tickerSymbol)
+}

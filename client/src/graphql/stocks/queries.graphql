@@ -1,0 +1,33 @@
+query GetStockSummary($tickerSymbols: [TickerSymbol!]!) {
+  getStockSummary(tickerSymbols: $tickerSymbols) {
+    tickerSymbol
+    businessSummary
+    companyName
+    grossProfit
+    marketCap
+    regularMarketChange
+    regularMarketChangePercent
+    totalRevenue
+    revenueGrowth
+    regularMarketPrice
+    lastRefreshed
+    history {
+      date
+      price
+    }
+  }
+}
+
+query GetUserStocks {
+  userStocks {
+    id
+    tickerSymbol
+  }
+}
+
+query GetSimilarStocks($tickerSymbol: TickerSymbol!) {
+  getSimilarStocks(tickerSymbol: $tickerSymbol) {
+    symbol
+    score
+  }
+}
